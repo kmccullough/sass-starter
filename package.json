@@ -1,0 +1,17 @@
+{
+  "name": "sass-project",
+  "version": "1.0.0",
+  "description": "Sass starter project",
+  "main": "public/index.html",
+  "dependencies": {},
+  "devDependencies": {
+    "sass": "^1.17.2"
+  },
+  "scripts": {
+    "build": "npm run clean ; npm run sass",
+    "clean": "rm -rf ./public/build/style/",
+    "sass": "sass ./src/style/style.scss ./public/build/style/style.css"
+  },
+  "author": "",
+  "license": "MIT"
+}
